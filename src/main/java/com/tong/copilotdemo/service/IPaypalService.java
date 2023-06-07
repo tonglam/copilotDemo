@@ -17,8 +17,12 @@ public interface IPaypalService {
     //- refundDetails：退款查询接口
 
 
-     // generate some code below, for public method named 'createOrder', input in CreateOrderInVo, output in OrderOutVo
-    public OrderOutVo createOrder(CreateOrderInVo createOrderInVo);
+     // create some code below, for public method named 'createOrder', input in CreateOrderInVo, output in OrderOutVo
+    OrderOutVo createOrder(CreateOrderInVo createOrderInVo);
+
+    // crete some code below, for public method named 'showOrderDetails', input in String, output in OrderOutVo
+
+
 
 
 

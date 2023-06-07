@@ -33,4 +33,11 @@ public class WebhookEventDataVo {
     @JsonProperty(value = "resource_version")
     private String resourceVersion;
 
+    public WebhookEventDataVo() {
+    }
+
+    public String getId() {
+        return this.id;
+    }
+
 }
