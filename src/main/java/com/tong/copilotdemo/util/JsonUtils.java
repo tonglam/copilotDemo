@@ -5,7 +5,7 @@ import com.fasterxml.jackson.core.JsonFactory;
 import com.fasterxml.jackson.core.JsonGenerator;
 import com.fasterxml.jackson.databind.DeserializationFeature;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.tong.paypal_demo.constant.Constant;
+import com.tong.copilotdemo.constant.Constant;
 import lombok.NoArgsConstructor;
 
 import java.io.StringWriter;

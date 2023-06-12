@@ -18,14 +18,22 @@ public interface IPaypalService {
 
 
      // create some code below, for public method named 'createOrder', input in CreateOrderInVo, output in OrderOutVo
-    OrderOutVo createOrder(CreateOrderInVo createOrderInVo);
+    public OrderOutVo createOrder(CreateOrderInVo createOrderInVo);
 
-    // crete some code below, for public method named 'showOrderDetails', input in String, output in OrderOutVo
+    // create some code below, for public method named 'showOrderDetails', input in String orderId, output in OrderOutVo
+    public OrderOutVo showOrderDetails(String orderId);
 
+    // create some code below, for public method named 'captureOrderPayment', input in String orderId, output in OrderOutVo
+    public OrderOutVo captureOrderPayment(String orderId);
 
+    // create some code below, for public method named 'capturedPaymentDetails', input in String orderId, output in OrderOutVo
+    public OrderOutVo capturedPaymentDetails(String orderId);
 
+    // create some code below, for public method named 'refundCapturedPayment', input in String orderId, output in OrderOutVo
+    public OrderOutVo refundCapturedPayment(String orderId);
 
-
+    // create some code below, for public method named 'refundDetails', input in String orderId, output in OrderOutVo
+    public OrderOutVo refundDetails(String orderId);
 
 
 }
